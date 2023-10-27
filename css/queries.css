@@ -1,0 +1,93 @@
+@media(max-width: 52em) {
+  .grid {
+    grid-template-columns: 1fr;
+    row-gap: 3.2rem;
+  }
+
+  .first-box-container {
+    width: auto;
+  }
+
+  .container {
+    width: auto;
+  }
+
+  .second-box {
+    width: auto;
+    height: auto;
+  }
+
+  body {
+    background-image: url('../images/bg-mobile.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .background {
+    display: none;
+  }
+
+  .tip {
+    display: none;
+  }
+
+  .left {
+    border-radius: 9px;
+  }
+
+  .left-box {
+
+    top: 50%;
+    right: -9%;
+    transform: translate(-50%, 50%);
+    /* transform: translateY(-50%, 50%); */
+  }
+}
+
+/* 592 px */
+
+@media(max-width: 37em) {
+  html {
+    font-size: 60%;
+  }
+}
+
+/* 560px */
+@media(max-width: 35em) {
+  html {
+    font-size: 52%;
+  }
+}
+
+
+/* 480px */
+@media(max-width: 30em) {
+  html {
+    font-size: 50%;
+  }
+
+  body {
+    padding: 9.6rem 2.4rem;
+  }
+
+  .container {
+    position: static;
+    transform: none;
+
+  }
+
+
+
+  .logo {
+    height: 40%;
+  }
+
+  .icon {
+    height: 2.4rem;
+  }
+
+  .icon-box {
+    border-radius: 1rem;
+    padding: 1rem;
+  }
+}
